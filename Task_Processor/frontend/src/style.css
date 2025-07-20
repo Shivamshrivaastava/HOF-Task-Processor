@@ -1,0 +1,62 @@
+body {
+  background: #f6f8fa;
+  font-family: Arial, sans-serif;
+  margin: 0; padding: 0;
+}
+#app {
+  margin: 40px auto;
+  max-width: 500px;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.11);
+  padding: 1.5em;
+}
+#taskForm, #taskForm input, #taskForm button {
+  display: inline-block;
+  margin: 0.3em 0.2em;
+}
+form input[type="text"], form input[type="number"] {
+  padding: 0.3em;
+  border: 1px solid #aaa;
+  border-radius: 4px;
+}
+ul#taskList {
+  list-style: none;
+  padding: 0;
+}
+ul#taskList li {
+  padding: 0.4em;
+  border-bottom: 1px solid #eee;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+ul#taskList li.done {
+  text-decoration: line-through;
+  color: #888;
+  opacity: 0.6;
+}
+li span.tags {
+  color: #2996cc;
+  font-size: 0.94em;
+  margin-left: 1em;
+}
+li button {
+  margin-left: auto;
+  border: none;
+  background: #ef4444;
+  color: white;
+  border-radius: 3px;
+  cursor: pointer;
+  padding: 0.25em 0.6em;
+  font-size: 0.95em;
+}
+li button:hover { background: #d11a2a; }
+#summary {
+  margin: 1em 0;
+  padding: 0.65em;
+  background: #e0f7fa;
+  border-radius: 6px;
+  color: #06515d;
+  font-size: 1.07em;
+}
